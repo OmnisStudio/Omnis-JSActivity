@@ -1,5 +1,5 @@
 # Omnis-JSActivity
-Library to show how to use the JS Activity component which can be displayed for lengthy operations on the Omnis Server.
+Library to show how to use the JS Activity component which can be displayed for lengthy operations on the Omnis Server. The app can be viewed here http://tinyurl.com/jsgallery8, click on 'Activity' in the list.
 
 Requires Omnis Studio 8.1.2 or above.
 
