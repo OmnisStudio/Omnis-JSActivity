@@ -1,0 +1,11 @@
+;  Enter your initialization code here
+
+Do iActivityStyles.$define(iActivityStyle)
+Do iActivityStyles.$add('kJSActivityBar')
+Do iActivityStyles.$add('kJSActivityBlock')
+Do iActivityStyles.$add('kJSActivitySmallSpinner')
+Do iActivityStyles.$add('kJSActivityCustomLink')
+Do iActivityStyles.$line.$assign(4)
+
+Calculate iCustomLink as 'http://omnisservice.mh.omnis-software.com/jsgallery/Omnis_JavaScript_Animated1.gif'
+Do $cinst.$objs.Activity.$customlink.$assign(iCustomLink)

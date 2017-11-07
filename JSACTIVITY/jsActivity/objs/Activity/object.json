@@ -1,0 +1,52 @@
+{
+	"ident": 1006,
+	"order": 5,
+	"objtype": "kComponent",
+	"componentlib": "jsActivity",
+	"componentctrl": "Activity Control",
+	"properties": {
+		"activitystyle": "kJSActivityCustomLink",
+		"alpha": 255,
+		"backalpha": 255,
+		"backcolor": "kWhite",
+		"contextmenu": "",
+		"cssclassname": "",
+		"customlink": "",
+		"desgroup": 0,
+		"designactive": true,
+		"deslock": false,
+		"disabledefaultcontextmenu": false,
+		"disablesystemfocus": false,
+		"dropmode": "kAcceptNone",
+		"enabled": true,
+		"events": "",
+		"fieldstyle": "",
+		"objlink": 0,
+		"preventlayoutanimation": false,
+		"tooltip": "",
+		"userinfo": "",
+		"visible": true
+	},
+	"layout": {
+		"310": {
+			"left": 5,
+			"top": 363,
+			"width": 300,
+			"height": 100,
+			"dragborder": false,
+			"edgefloat": "kEFright",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		},
+		"600": {
+			"left": 130,
+			"top": 310,
+			"width": 455,
+			"height": 100,
+			"dragborder": false,
+			"edgefloat": "kEFnone",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		}
+	}
+}

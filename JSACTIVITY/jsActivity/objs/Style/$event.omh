@@ -1,0 +1,11 @@
+On evClick
+	Do $cinst.$objs.Activity.$activitystyle.$assign([iActivityStyles.iActivityStyle])
+	
+	If iActivityStyles.iActivityStyle=kJSActivityCustomLink
+		Do $cinst.$objs.Activity.$customlink.$assign(iCustomLink)
+		Do $cinst.$objs.CustomLink.$enabled.$assign(kTrue)
+		Do $cinst.$objs.Apply.$enabled.$assign(kTrue)
+	Else
+		Do $cinst.$objs.CustomLink.$enabled.$assign(kFalse)
+		Do $cinst.$objs.Apply.$enabled.$assign(kFalse)
+	End If
